@@ -1,0 +1,7 @@
+Firstname: John Dave
+Middlename: Lajera
+lastname: Timkang
+Gender: Male
+Age: 21
+Birthday: May 5, 2004
+Contacts: 09099250471
