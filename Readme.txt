@@ -253,3 +253,33 @@ Your branch is up to date with 'origin/master'.
 lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
 $ git checkout -b Timkang_B4
 Switched to a new branch 'Timkang_B4'
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B4)
+$ git add Readme.txt
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B4)
+$ git rm Test.py
+rm 'Test.py'
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B4)
+$  git commit -m "Amend: updated Readme.txt and removed Test.py"
+[Timkang_B4 ae5d8e1] Amend: updated Readme.txt and removed Test.py
+ 1 file changed, 255 insertions(+)
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B4)
+$ git push origin Timkang_B4
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 3.05 KiB | 208.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+remote:
+remote: Create a pull request for 'Timkang_B4' on GitHub by visiting:
+remote:      https://github.com/JDTimkang/Timkang_IT120_Act1/pull/new/Timkang_B4
+remote:
+To https://github.com/JDTimkang/Timkang_IT120_Act1.git
+ * [new branch]      Timkang_B4 -> Timkang_B4
+
+
