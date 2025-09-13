@@ -169,3 +169,41 @@ remote:      https://github.com/JDTimkang/Timkang_IT120_Act1/pull/new/Timkang_B1
 remote:
 To https://github.com/JDTimkang/Timkang_IT120_Act1.git
  * [new branch]      Timkang_B1 -> Timkang_B1
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B1)
+$ git add Readme.txt
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B1)
+$ git checkout master
+M       Readme.txt
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
+$ git checkout -b Timkang_B2
+Switched to a new branch 'Timkang_B2'
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B2)
+$ git add Education.txt
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B2)
+$ git commit -m "Amend: updated Education.txt with details"
+[Timkang_B2 f7a67f8] Amend: updated Education.txt with details
+ 2 files changed, 175 insertions(+), 1 deletion(-)
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B2)
+$ git push origin Timkang_B2
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.10 KiB | 357.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'Timkang_B2' on GitHub by visiting:
+remote:      https://github.com/JDTimkang/Timkang_IT120_Act1/pull/new/Timkang_B2
+remote:
+To https://github.com/JDTimkang/Timkang_IT120_Act1.git
+ * [new branch]      Timkang_B2 -> Timkang_B2
+
