@@ -2,3 +2,6 @@ Elementary School: Del Pilar Central Elementary School
 Year Graduated: 2016-2017
 High School: Caraga State University Cabadbaran Campus - Department of Laboratory High School
 Year Grauated: 2019-2020
+College: Caraga State University Cabadbaran Campus
+Program: Bachelor of Science in Informaton Technology
+Year Level: 3rd Year
