@@ -5,3 +5,9 @@ Gender: Male
 Age: 21
 Birthday: May 5, 2004
 Contacts: 09099250471
+Birth of Place: Bayugan City
+Religion: Bible Baptist
+Father's Name: Ceriaco S. Timkang
+Occupation: Mechanic
+Mother's Name: Teresita L. Gaviola
+Occupation: Teacher
