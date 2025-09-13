@@ -282,3 +282,32 @@ remote:
 To https://github.com/JDTimkang/Timkang_IT120_Act1.git
  * [new branch]      Timkang_B4 -> Timkang_B4
 
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (Timkang_B4)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
+$ git add Readme.txt
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
+$ git commit -m "Amend Readme.txt"
+[master a1184c7] Amend Readme.txt
+ 1 file changed, 283 insertions(+)
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
+$ git push origin master
+To https://github.com/JDTimkang/Timkang_IT120_Act1.git
+
+lenovo@DESKTOP-D5SS6DV MINGW64 ~/desktop/Timkang_IT120_Act1 (master)
+$ git branch -a
+  Timkang_B1
+  Timkang_B2
+  Timkang_B3
+  Timkang_B4
+* master
+  remotes/origin/Timkang_B1
+  remotes/origin/Timkang_B2
+  remotes/origin/Timkang_B3
+  remotes/origin/Timkang_B4
+  remotes/origin/master
